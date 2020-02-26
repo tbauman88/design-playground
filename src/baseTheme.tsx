@@ -13,6 +13,11 @@ export const baseTheme = {
   borders: {
     ...theme.borders,
     "5px": "5px solid",
-    "6px": "6px solid"
+    "6px": "6px solid",
+    gray: {
+      "1px": `1px solid ${theme.colors.gray[300]}`,
+      "2px": `2px solid ${theme.colors.gray[300]}`,
+      "3px": `3px solid ${theme.colors.gray[300]}`
+    }
   }
 } as const;
