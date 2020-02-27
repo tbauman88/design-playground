@@ -1,7 +1,7 @@
+import { CSSReset, Flex, ThemeProvider } from "@chakra-ui/core";
 import React from "react";
-import { baseTheme } from "./baseTheme";
-import { ThemeProvider, CSSReset, Flex } from "@chakra-ui/core";
 import "typeface-raleway";
+import { baseTheme } from "./baseTheme";
 require("typeface-raleway");
 
 const decorator: React.FC = ({ children }) => {
@@ -16,7 +16,6 @@ const decorator: React.FC = ({ children }) => {
         justifyContent="center"
         alignItems="center"
         height="100vh"
-        p="2"
         position="relative"
       >
         {children}
